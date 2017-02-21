@@ -2,5 +2,5 @@
 comment0.params=l1\ l2
 comment0.target=Cuadrado(float,\ float)
 comment1.params=
-comment1.target=void\ calculaAreaC()
+comment1.target=void\ calculaArea()
 numComments=2

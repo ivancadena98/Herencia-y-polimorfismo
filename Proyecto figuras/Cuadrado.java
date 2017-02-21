@@ -16,7 +16,7 @@ public class Cuadrado extends Figura
         Lado2=l2;
     }
     
-    public void calculaAreaC()
+    public void calculaArea()
     {
         area=(Lado*Lado2);
     }

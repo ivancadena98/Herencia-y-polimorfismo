@@ -14,7 +14,7 @@ public class Circulo extends Figura
     }
     
     
-    public void calculaAreaCi()
+    public void calculaArea()
     {
         area=(float)3.1416*(float)Math.pow(radio,2);
     }
