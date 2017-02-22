@@ -22,4 +22,9 @@ public class Figura
     {
         System.out.println("Chale");
     }
+    
+    public String dimeInfo()
+    {
+        return "" + area;
+    }
 }
