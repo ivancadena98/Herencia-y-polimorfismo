@@ -26,7 +26,7 @@ public class Main
         
         for(Figura f:figuras)
         {
-            System.out.println(f.dimeInfo());
+            System.out.println(f);
         }
         /*for(int i=0;i<figuras.length;i++)
         {

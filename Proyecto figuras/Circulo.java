@@ -23,4 +23,8 @@ public class Circulo extends Figura
     {
         return "Circulo " + super.dimeInfo();
     }
+    
+    @Override
+    public String toString()
+    { return "Area de Circulo es " +super.toString();}
 }

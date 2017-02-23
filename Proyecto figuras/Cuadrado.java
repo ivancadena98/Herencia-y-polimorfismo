@@ -25,4 +25,8 @@ public class Cuadrado extends Figura
     {
         return "Cuadrado " + super.dimeInfo();
     }
+    
+    @Override
+    public String toString()
+    { return "Area de Cuadrado es " +super.toString();}
 }
