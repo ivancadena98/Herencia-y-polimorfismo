@@ -13,13 +13,20 @@ public class Main
          Triangulo t1= new Triangulo(3,6);
         Cuadrado c1= new Cuadrado(4,4);
         Circulo ci1= new Circulo(5);
+        Circulo ci2= new Circulo(5);
         
         ArrayList<Figura>figuras=new ArrayList<Figura>();
         figuras.add(t1);
         figuras.add(c1);
         figuras.add(ci1);
         
-        for(Figura f:figuras)
+        if(ci1.equals(t1))
+        {
+            System.out.println("Iguales ");
+        }
+        else 
+            {System.out.println("Diferentes");}
+        /*for(Figura f:figuras)
         {
             f.calculaArea();
         }
@@ -28,7 +35,7 @@ public class Main
         {
             System.out.println(f);
         }
-        /*for(int i=0;i<figuras.length;i++)
+        for(int i=0;i<figuras.length;i++)
         {
             figuras[i].calculaArea();
         }

@@ -31,4 +31,12 @@ public class Figura
     @Override
     public String toString()
     { return "" + area;}
+    
+    /*@Override
+    public boolean equals(Object obj)
+    {
+        return this.area == ((Figura)obj).area;
+
+        
+    }*/
 }
