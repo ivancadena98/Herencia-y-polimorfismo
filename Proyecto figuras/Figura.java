@@ -5,9 +5,12 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Figura
+public abstract class Figura
 {
     protected float area;
+    private int posx;
+    private int posy;
+    
     public void figura()
     {
         area=0;
@@ -32,6 +35,7 @@ public class Figura
     public String toString()
     { return "" + area;}
     
+    public abstract void dibuja(Graphics g);
     /*@Override
     public boolean equals(Object obj)
     {

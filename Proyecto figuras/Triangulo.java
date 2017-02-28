@@ -1,4 +1,5 @@
-
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 /**
  * Write a description of class Triangulo here.
  * 
@@ -9,7 +10,18 @@ public class Triangulo extends Figura
 {
     private float base;
     private float altura;
-    public Triangulo(float b,float a)
+    
+    
+    public void dibuja(Graphics g)
+    {
+        super(x,y);
+        Graphics2D g2= (Graphics2D)g;
+    }
+    
+    
+    
+    
+    /*public Triangulo(float b,float a)
     {
         base=b;
         altura=a;
@@ -27,5 +39,5 @@ public class Triangulo extends Figura
     
         @Override
     public String toString()
-    { return "Area de Triangulo es " +super.toString();}
+    { return "Area de Triangulo es " +super.toString();}*/
 }

@@ -10,7 +10,10 @@ public class Main
     private ArrayList<Figura>f;
     public static void main(String [] args)
     {
-         Triangulo t1= new Triangulo(3,6);
+        Ventana vent= new Ventana(900,700);
+        vent.setVisible(true);
+        
+        Triangulo t1= new Triangulo(3,6);
         Cuadrado c1= new Cuadrado(4,4);
         Circulo ci1= new Circulo(5);
         Circulo ci2= new Circulo(5);
@@ -20,13 +23,43 @@ public class Main
         figuras.add(c1);
         figuras.add(ci1);
         
-        if(ci1.equals(t1))
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*if(ci1.equals(t1))
         {
             System.out.println("Iguales ");
         }
         else 
             {System.out.println("Diferentes");}
-        /*for(Figura f:figuras)
+            
+        
+        for(Figura f:figuras)
         {
             f.calculaArea();
         }
