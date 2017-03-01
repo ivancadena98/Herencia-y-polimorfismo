@@ -1,4 +1,4 @@
-
+import java.awt.Graphics;
 /**
  * Write a description of class Figura here.
  * 
@@ -7,10 +7,17 @@
  */
 public abstract class Figura
 {
-    protected float area;
-    private int posx;
-    private int posy;
+    //protected float area;
+    private int x;
+    private int y;
+    public abstract void dibuja(Graphics g);
     
+    public void Figura(int a,int b)
+    {
+        x=a;
+        y=b;
+    }
+   /* 
     public void figura()
     {
         area=0;

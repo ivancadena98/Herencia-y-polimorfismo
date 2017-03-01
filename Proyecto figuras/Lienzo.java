@@ -12,9 +12,10 @@ public class Lienzo extends JPanel
    @Override
    public void paintComponent(Graphics g)
    {
-       Graphics2D g2= (Graphics2D)g;
+       //for()
+       /*Graphics2D g2= (Graphics2D)g;
        g2.drawString("Hola Mundo", 100, 200);
        g2.drawRect(50, 40, 100, 500);
-       g2.drawLine(3, 5, 7, 12);
+       g2.drawLine(3, 5, 7, 12);*/
    }
 }

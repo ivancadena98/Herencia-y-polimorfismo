@@ -16,7 +16,6 @@ public class Main
         Triangulo t1= new Triangulo(3,6);
         Cuadrado c1= new Cuadrado(4,4);
         Circulo ci1= new Circulo(5);
-        Circulo ci2= new Circulo(5);
         
         ArrayList<Figura>figuras=new ArrayList<Figura>();
         figuras.add(t1);

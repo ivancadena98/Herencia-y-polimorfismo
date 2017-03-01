@@ -11,7 +11,15 @@ public class Cuadrado extends Figura
     private float Lado;
     private float Lado2;
     
-    public Cuadrado(float l1,float l2)
+        public void dibuja(Graphics g)
+    {
+        super(x,y);
+        Graphics2D g2= (Graphics2D)g;
+        g2.drawRect(x,y,Lado1,Lado2);
+    }
+    
+    
+    /*public Cuadrado(float l1,float l2)
     {
         Lado=l1;
         Lado2=l2;
@@ -29,5 +37,5 @@ public class Cuadrado extends Figura
     
     @Override
     public String toString()
-    { return "Area de Cuadrado es " +super.toString();}
+    { return "Area de Cuadrado es " +super.toString();}*/
 }

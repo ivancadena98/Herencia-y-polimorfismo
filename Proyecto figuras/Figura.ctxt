@@ -1,12 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ figura()
-comment1.params=
-comment1.target=float\ accedeArea()
-comment2.params=
-comment2.target=void\ calculaArea()
-comment3.params=
-comment3.target=java.lang.String\ dimeInfo()
-comment4.params=
-comment4.target=java.lang.String\ toString()
-numComments=5
+comment0.params=g
+comment0.target=void\ dibuja(java.awt.Graphics)
+comment1.params=a\ b
+comment1.target=void\ Figura(int,\ int)
+numComments=2

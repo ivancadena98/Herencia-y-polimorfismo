@@ -11,11 +11,21 @@ public class Triangulo extends Figura
     private float base;
     private float altura;
     
+    public Triangulo(float b,float a)
+    {
+        super(x,y);
+        base=b;
+        altura=a;
+    }
+    
     
     public void dibuja(Graphics g)
     {
-        super(x,y);
+
         Graphics2D g2= (Graphics2D)g;
+        g2.drawLine(x,y,base/2,y);
+        g2.drawLine(x,y,x,base/2);
+        g2.drawLine(base/2,y,x,base/2);
     }
     
     

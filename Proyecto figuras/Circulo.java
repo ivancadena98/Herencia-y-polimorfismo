@@ -10,7 +10,21 @@ public class Circulo extends Figura
 {
     private float radio;
     
-    public Circulo(float r)
+    public void Circulo(float r)
+    {
+        super(x,y);
+        radio=r;
+    }
+    
+        public void dibuja(Graphics g)
+    {
+
+        Graphics2D g2= (Graphics2D)g;
+        g2.drawOval(x,y,radio,radio);
+    }
+    
+    
+    /*public Circulo(float r)
     {
         radio=r;
     }
@@ -36,7 +50,7 @@ public class Circulo extends Figura
         {return this.radio==((Circulo)obj).radio;}
         else
         {return false;}
-    }
+    }*/
     
     
 }
