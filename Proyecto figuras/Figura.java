@@ -10,13 +10,15 @@ public abstract class Figura
     //protected float area;
     private int x;
     private int y;
-    public abstract void dibuja(Graphics g);
-    
-    public void Figura(int a,int b)
+        public void Figura(int a,int b)
     {
         x=a;
         y=b;
     }
+    
+    public abstract void dibuja(Graphics g);
+    
+
    /* 
     public void figura()
     {

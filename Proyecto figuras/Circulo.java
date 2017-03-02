@@ -10,9 +10,9 @@ public class Circulo extends Figura
 {
     private float radio;
     
-    public void Circulo(float r)
-    {
-        super(x,y);
+    public Circulo(float r)
+    {        super(x,y);
+
         radio=r;
     }
     

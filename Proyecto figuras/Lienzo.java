@@ -1,4 +1,5 @@
 import javax.swing.JPanel;
+import java.util.ArrayList;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 /**
@@ -9,13 +10,26 @@ import java.awt.Graphics2D;
  */
 public class Lienzo extends JPanel
 {
+     ArrayList<Figura>figuras=new ArrayList<Figura>();
+    public Lienzo()
+    {
+        Triangulo t1= new Triangulo(3,6);
+        Cuadrado c1= new Cuadrado(4,4);
+        Circulo ci1= new Circulo(5);
+        Rombo r1= new Rombo(40,15);
+        figuras.add(t1);
+        figuras.add(c1);
+        figuras.add(ci1);
+        figuras.add(r1);
+    }
+   
+        
    @Override
    public void paintComponent(Graphics g)
    {
-       //for()
-       /*Graphics2D g2= (Graphics2D)g;
-       g2.drawString("Hola Mundo", 100, 200);
-       g2.drawRect(50, 40, 100, 500);
-       g2.drawLine(3, 5, 7, 12);*/
+       for(Figura f: figuras)
+       {
+           f.dibuja(g);
+        }
    }
 }

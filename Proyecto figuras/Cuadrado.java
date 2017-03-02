@@ -11,6 +11,13 @@ public class Cuadrado extends Figura
     private float Lado;
     private float Lado2;
     
+    public Cuadrado(float l1,float l2)
+    {
+        super(x,y);
+        Lado=l1;
+        Lado2=l2;
+    }
+    
         public void dibuja(Graphics g)
     {
         super(x,y);
