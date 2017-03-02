@@ -16,6 +16,14 @@ public abstract class Figura
         y=b;
     }
     
+    public void accedex()
+    {
+        return x;
+    }
+    public void accedey()
+    {
+         return y;
+    }
     public abstract void dibuja(Graphics g);
     
 
