@@ -13,16 +13,16 @@ public class Planeta
         coleccionPais.add(P);
     }
     
-    public int promedioHabitantes()
+    public float promedioHabitantes()
     {
-        int aux=0;
+        float aux=0;
         float aux2=0;
         for(int i=0; i<coleccionPais.size();i++)
         {
-            aux=coleccionPais.get(i).accedeH+aux;
+            aux=coleccionPais.get(i).accedeH()+aux;
         }
          aux2=aux/coleccionPais.size();
-        return aux2;
+        return (aux2);
        }
 }
 

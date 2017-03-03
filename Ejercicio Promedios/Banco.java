@@ -25,10 +25,10 @@ public class Banco
         float aux2=0;
         for(int i=0; i<coleccion.size();i++)
         {
-            aux=(coleccion.get(i)).accedeSaldo+aux;
+            aux=(coleccion.get(i)).accedeSaldo()+aux;
         }
          aux2=aux/coleccion.size();
-        return aux2;
+        return (aux2);
        }
        
     }

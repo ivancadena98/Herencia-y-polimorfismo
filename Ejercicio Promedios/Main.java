@@ -10,6 +10,7 @@ public class Main
 {
 public static void main(String [] args)
 {
+    Banco B1;
     B1=new Banco();
     CuentaBancaria c1=new CuentaBancaria(100);
     CuentaBancaria c2=new CuentaBancaria(200);
@@ -20,7 +21,7 @@ public static void main(String [] args)
     B1.calcularSaldo();
     
     
-    
+    Planeta P;
     P=new Planeta();
     Pais p1= new Pais(25000000);
     Pais p2= new Pais(32000000);
