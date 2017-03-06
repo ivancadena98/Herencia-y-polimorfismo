@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.text.DecimalFormat;
 /**
  * Write a description of class Main here.
  * 
@@ -10,6 +11,7 @@ public class Main
 {
 public static void main(String [] args)
 {
+    //DecimalFormat d= new DecimalFormat("0.00");
     Banco B1;
     B1=new Banco();
     CuentaBancaria c1=new CuentaBancaria(100);
@@ -18,7 +20,6 @@ public static void main(String [] args)
     B1.agregarCuenta(c1);
     B1.agregarCuenta(c2);
     B1.agregarCuenta(c3);
-    B1.calcularSaldo();
     
     
     Planeta P;
@@ -29,7 +30,8 @@ public static void main(String [] args)
     P.agregarPais(p1);
     P.agregarPais(p2);
     P.agregarPais(p3);
-    P.promedioHabitantes();
-    System.out.println("Saldo promedio = y Promedio de habitantes = "+B1+P);
+    System.out.println("Saldo promedio = "+B1.calcularSaldo());
+    System.out.println("Habitantes promedio = "+P.promedioHabitantes());
+    
 }
 }
