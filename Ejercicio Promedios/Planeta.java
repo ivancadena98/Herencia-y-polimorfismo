@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Planeta
+public class Planeta implements Medible
 {
     ArrayList<Pais>coleccionPais=new ArrayList<Pais>();
     public void agregarPais(Pais P)
@@ -13,7 +13,12 @@ public class Planeta
         coleccionPais.add(P);
     }
     
-    public float promedioHabitantes()
+    public float calculaPromedio()
+    {
+         Pais [] arrPais=new Pais[coleccionPais.size()];
+         arrPais= coleccionPais.toArray(arrPais);
+    }
+    /*public float promedioHabitantes()
     {
         float aux=0;
         float aux2=0;
@@ -23,6 +28,6 @@ public class Planeta
         }
          aux2=aux/coleccionPais.size();
         return (aux2);
-       }
+       }*/
 }
 

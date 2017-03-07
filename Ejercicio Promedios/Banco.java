@@ -6,7 +6,7 @@ import java.util.Iterator;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Banco
+public class Banco implements Medible
 {
    private ArrayList<CuentaBancaria> coleccion;
    public Banco()
@@ -19,7 +19,17 @@ public class Banco
         coleccion.add(CB);
     }
     
-    public float calcularSaldo()
+    public float calcularPromedio()
+    {
+        CuentaBancaria [] arrcoleccion=new CuentaBancaria[coleccion.size()];
+        for(int i=0;i<coleccion.size();i++)
+        {
+            arrcoleccion[i]= coleccion.get(i);
+        }
+        //return Utileria.calculaPromedio()
+    }
+    
+    /*public float calcularSaldo()
     {
         int aux=0;
         float aux2=0;
@@ -29,6 +39,6 @@ public class Banco
         }
          aux2=aux/coleccion.size();
         return (aux2);
-       }
+       }*/
        
     }

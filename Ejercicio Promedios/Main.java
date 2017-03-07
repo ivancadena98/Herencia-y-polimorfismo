@@ -30,8 +30,8 @@ public static void main(String [] args)
     P.agregarPais(p1);
     P.agregarPais(p2);
     P.agregarPais(p3);
-    System.out.println("Saldo promedio = "+B1.calcularSaldo());
-    System.out.println("Habitantes promedio = "+P.promedioHabitantes());
+    System.out.println("Saldo promedio = "+B1.calcularPromedio());
+    System.out.println("Habitantes promedio = "+P.calcularPromedio());
     
 }
 }
