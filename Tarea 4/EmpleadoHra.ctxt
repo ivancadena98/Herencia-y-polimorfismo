@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=n\ v\ c
+comment0.target=EmpleadoHra(java.lang.String,\ int,\ int)
+comment1.params=
+comment1.target=int\ calcularIngreso()
+numComments=2
