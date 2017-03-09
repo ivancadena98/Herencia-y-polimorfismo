@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Almacenamiento()
-numComments=1
+comment1.params=p
+comment1.target=void\ AgregarPub(Publicacion)
+comment2.params=x
+comment2.target=void\ BuscarPub(java.lang.String)
+comment3.params=x
+comment3.target=void\ EliminarPub(java.lang.String)
+numComments=4

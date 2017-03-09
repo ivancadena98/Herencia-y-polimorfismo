@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=tm\ N\ M\ C\ L\ H
+comment0.target=Texto(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.params=j
+comment1.target=void\ agregarComentario(java.lang.String)
+comment2.params=
+comment2.target=void\ MostrarP()
+numComments=3
