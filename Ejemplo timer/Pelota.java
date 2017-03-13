@@ -40,8 +40,11 @@ public class Pelota
         posx = x;
         posy = y;
         radio = r;
-        incx = 10;
-        incy = 10;
+        int a = (int)(Math.random()*2)-1;
+        if(a==0){ a=-1;}
+        incx = a*10;
+        incy = 1*10;
+
     }
     
     public void dibujate(Graphics g)

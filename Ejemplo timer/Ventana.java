@@ -23,7 +23,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.Timer;
-
 public class Ventana extends JFrame
 {
     private Lienzo dibujo;
@@ -41,7 +40,7 @@ public class Ventana extends JFrame
 
         // Agregar el escuchador del temporizador
         EscuchadorTiempo escuchaTiempo = new EscuchadorTiempo();
-        tiempo = new Timer(100, escuchaTiempo);
+        tiempo = new Timer(10, escuchaTiempo);
         tiempo.start();
         
         this.setSize(ancho, alto);
